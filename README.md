@@ -14,7 +14,7 @@
 
 <details><summary><b>'erd.attention' 的示例</b></summary>
 
-[erd.attention Demo](https://github.com/xiashuangxi/erd.nvim/blob/main/demo/red.attention.mp4)
+https://user-images.githubusercontent.com/3353868/179405173-2456b217-1c3f-4307-845a-181c25830c9a.mp4
 
 </details>
 
