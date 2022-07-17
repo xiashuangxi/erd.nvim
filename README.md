@@ -3,7 +3,11 @@
 [![开源协议](https://badgen.net/github/license/xiashuangxi/erd.nvim)](https://github.com/xiashuangxi/erd.nvim/blob/main/LICENSE)
 
 ## 目录
- 
+
+- [安装](#安装)
+- [模块](#模块)
+    - [erd.attention](#erdattention)
+
 ## 安装 
 
 ## 模块
