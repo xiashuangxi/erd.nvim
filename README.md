@@ -13,7 +13,9 @@
 高亮显示光标的行、列，改变光标的颜色，使注意力关注在编辑处。
 
 <details><summary><b>'erd.attention' 的示例</b></summary>
+
 https://github.com/xiashuangxi/erd.nvim/blob/main/demo/red.attention.mp4
+
 </details>
 
 默认配置 
