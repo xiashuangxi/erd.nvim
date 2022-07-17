@@ -56,12 +56,18 @@ M.setup = function(opts)
     vim.opt['cursorline'] = fif(__opts.line, __opts.line, true)
     vim.opt['cursorcolumn'] = fif(__opts.column, __opts.column, true)
 
-    vim.cmd(string.format('highlight Cursor guifg=white guibg=%s', fif(__opts.nvc_color, __opts.nvc_color, __color)))
-    vim.cmd(string.format('highlight iCursor guifg=white guibg=%s', fif(__opts.i_color, __opts.i_color, __color)))
-    vim.cmd('set guicursor=n-v-c:block-Cursor')
-    vim.cmd(string.format('set guicursor+=i:ver%s-iCursor', fif(__opts.i_width, __opts.i_width, __width)))
-    vim.cmd('set guicursor+=n-v-c:blinkon0')
-    vim.cmd('set guicursor+=i:blinkwait10')
+    __command = {
+	string.format('highlight Cursor guifg=white guibg=%s', fif(__opts.nvc_color, __opts.nvc_color, __color)),
+	string.format('highlight iCursor guifg=white guibg=%s', fif(__opts.i_color, __opts.i_color, __color)),
+	'set guicursor=n-v-c:block-Cursor',
+	string.format('set guicursor+=i:ver%s-iCursor', fif(__opts.i_width, __opts.i_width, __width)),
+	'set guicursor+=n-v-c:blinkon0',
+	'set guicursor+=i:blinkwait10',
+    }
+    
+    for _, __cmd in ipairs(__command) do 
+	vim.cmd(__cmd)
+    end 
 end
 
 return M
