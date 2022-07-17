@@ -14,7 +14,9 @@
 
 <details><summary><b>'erd.attention' 的示例</b></summary>
 
-https://github.com/xiashuangxi/erd.nvim/blob/main/demo/red.attention.mp4
+<video autoplay loop muted markdown="1">
+    <source src="https://github.com/xiashuangxi/erd.nvim/blob/main/demo/red.attention.mp4" type="video/mp4" markdown="1" >
+</video>
 
 </details>
 
