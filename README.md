@@ -7,6 +7,7 @@
 - [安装](#安装)
 - [模块](#模块)
     - [erd.attention](#erdattention)
+    - [erd.ladder](#erdladder)
 
 ## 安装 
 
@@ -47,5 +48,9 @@ https://user-images.githubusercontent.com/3353868/179405173-2456b217-1c3f-4307-8
 快速跳转到行
 
 <details><summary><b>'erd.ladder' 的示例</b></summary>
+
+
+https://user-images.githubusercontent.com/3353868/180261689-6d923f80-82d0-421e-b6ac-31432819a226.mp4
+
 
 </details>
